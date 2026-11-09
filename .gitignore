@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+.cache/
+
+# Runtime generated data & inspection logs (20MB+ base64 history & reports)
+backend/data/reports/*.pdf
+backend/data/uploads/*
+backend/data/inspection_history.json
+!backend/data/reports/.gitkeep
+!backend/data/uploads/.gitkeep
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

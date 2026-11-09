@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Metrology Product Scanner | Ministry of Consumer Affairs</title>
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            govNavy: '#0f172a',
+            govBlue: '#1e3a8a',
+            govGold: '#f59e0b',
+            passGreen: '#10b981',
+            failRed: '#ef4444'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- React 18, Babel & Tesseract.js for In-Browser Optical Character Recognition -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+  
+  <div id="root">
+    <!-- React Mount Loading Screen -->
+    <div class="min-h-screen flex items-center justify-center">
+      <div class="text-center space-y-4">
+        <div class="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+        <div class="text-base font-bold text-white tracking-wide">Initializing Legal Metrology Scanner...</div>
+        <div class="text-xs text-slate-400">Loading computer vision & OCR engines</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Main Application Component via Babel -->
+  <script type="text/babel" src="/static/js/app.js"></script>
+
+</body>
+</html>

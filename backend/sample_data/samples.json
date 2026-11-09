@@ -1,0 +1,88 @@
+[
+  {
+    "id": "SAMPLE_BISCUIT_VIOLATION",
+    "name": "SuperCrunch Digestive Biscuits 100gm",
+    "brand": "SuperCrunch",
+    "category": "FMCG Food & Bakery",
+    "expected_verdict": "NON_COMPLIANT",
+    "key_issues": [
+      "Rule 6(1)(e) Violation: MRP declared as 'Rs 45.00' without mandatory 'inclusive of all taxes'",
+      "Rule 11 & Schedule II Violation: Non-standard unit '100 gm' instead of legal SI symbol '100 g'",
+      "Rule 7 & Schedule I Warning: Letter height ~1.2mm below prescribed 2.0mm for 100g package"
+    ],
+    "sides": {
+      "front": "SuperCrunch\nWHOLE WHEAT DIGESTIVE BISCUITS\nHigh Fibre • 0% Trans Fat\nNet Qty: 100 gm",
+      "back": "NUTRITIONAL INFORMATION (Per 100g)\nEnergy: 480 kcal | Protein: 8.5g | Carbs: 68g\nINGREDIENTS: Whole Wheat Flour (65%), Edible Vegetable Oil, Sugar, Raising Agents.\n\nManufactured by: SuperFoods Confectionery Ltd.\nPlot No 14, Industrial Area, Phase II, Haridwar, Uttarakhand - 249401\nCountry of Origin: India\nFSSAI Lic. No: 10017012000456\n\nConsumer Grievance / Care Cell:\nCustomer Service Executive\nPh: 1800-112-9900 | Email: care@superfoods.co.in\nAddress: Same as manufacturing address.",
+      "top": "SuperCrunch Digestives\nBatch No: SC-2026-A12\nPacked on: 02/2026\nBest Before: 6 Months from Packaging",
+      "side": "M.R.P.: Rs. 45.00\nNet Weight: 100 gm\nBarcode: 8901234567890\nDo not litter. Keep city clean."
+    }
+  },
+  {
+    "id": "SAMPLE_COSMETIC_LAB_FLAG",
+    "name": "GlowLuxe 20% Vitamin C Serum 30ml",
+    "brand": "GlowLuxe Labs",
+    "category": "Cosmetics & Skincare",
+    "expected_verdict": "FLAGGED_FOR_LAB",
+    "key_issues": [
+      "Section 15 Lab Verification: Active chemical claim '20% Active Vitamin C + 2% Hyaluronic Acid' requires HPLC assay",
+      "Rule 6(10) Warning: Imported cosmetic missing explicit Country of Origin declaration"
+    ],
+    "sides": {
+      "front": "GlowLuxe\nADVANCED RADIANCE SERUM\n20% Vitamin C + 2% Hyaluronic Acid\nNet Content: 30 ml",
+      "back": "ACTIVE INGREDIENTS:\n3-O-Ethyl Ascorbic Acid (Vitamin C) 20%, Sodium Hyaluronate 2%, Ferulic Acid 0.5%, Aqua.\n\nImported and Marketed by: LuxeCosmetics India Pvt. Ltd.\nRegd. Office: 402, Trade Tower, Bandra Kurla Complex, Mumbai, Maharashtra - 400051\n\nConsumer Helpline: +91 9820011223\nEmail: grievance@glowluxe.in\nWebsite: www.glowluxe.in",
+      "top": "GlowLuxe Radiance Serum\nBatch: GL-2026-V8\nMfg Date: 01/2026\nExp Date: 12/2027",
+      "side": "MRP ₹ 799.00 (inclusive of all taxes)\nNet Vol: 30 ml\nStore in a cool dry place away from direct sunlight."
+    }
+  },
+  {
+    "id": "SAMPLE_RICE_COMPLIANT",
+    "name": "Royal Heritage Aged Basmati Rice 1kg",
+    "brand": "Royal Heritage",
+    "category": "Staples & Grains",
+    "expected_verdict": "COMPLIANT",
+    "key_issues": [
+      "Fully Compliant: Standard SI unit '1 kg', Full Tax Inclusivity, Unit Sale Price (USP), PIN code, 4-point Consumer Care"
+    ],
+    "sides": {
+      "front": "Royal Heritage\nPREMIUM AGED BASMATI RICE\nLong Grain • Traditional Aroma\nNet Quantity: 1 kg",
+      "back": "Commodity: Premium Basmati Rice\nManufactured & Packed by: Heritage Agri Foods Ltd.\nKhasra No. 89/12, GT Road, Sonepat, Haryana - 131001\nCountry of Origin: India\nFSSAI Lic. No: 10014011002234\n\nFor Consumer Complaints / Queries:\nContact: Consumer Care Manager\nHelpline: 1800-200-8899 (Toll Free)\nEmail: customercare@heritageagro.in\nAddress: Same as manufacturer address.",
+      "top": "Royal Heritage Basmati Rice\nBatch No: HAR-2602-B4\nPKD: 02/2026\nBest Before 24 Months from Packaging",
+      "side": "MRP ₹ 185.00 (inclusive of all taxes)\nUnit Sale Price: ₹ 185.00 / kg\nNet Weight: 1 kg\nIS 14543 Certified"
+    }
+  },
+  {
+    "id": "SAMPLE_ATTA_TAMPER_STICKER",
+    "name": "GoldenHarvest Sharbati Atta 5kg (Price Sticker Violation)",
+    "brand": "GoldenHarvest",
+    "category": "Staples & Grains",
+    "expected_verdict": "NON_COMPLIANT",
+    "key_issues": [
+      "Rule 18(2) Violation: Affixed higher price sticker overlay (Sticker price ₹320 over printed MRP ₹275)",
+      "Rule 6(1)(e) Violation: Missing Unit Sale Price (USP per kg) on package > 1kg",
+      "Rule 6(1)(n) Violation: Missing Consumer Care email address"
+    ],
+    "sides": {
+      "front": "GoldenHarvest\n100% PURE SHARBATI WHOLE WHEAT ATTA\nNet Quantity: 5 kg",
+      "back": "Generic Name: Whole Wheat Flour (Atta)\nManufactured by: GoldenHarvest Flour Mills Ltd.\nIndustrial Estate, Sector 5, Pithampur, Madhya Pradesh - 454775\nCountry of Origin: India\nFSSAI Lic No: 10018026000789\n\nCustomer Feedback / Complaints:\nCall Toll Free: 1800-419-7788\n(Email redressal not provided)",
+      "top": "GoldenHarvest Sharbati Atta\nBatch: GH-ATTA-5K-99\nDate of Mfg: 02/2026\nBest before 90 days from manufacture",
+      "side": "sticker price ₹ 320.00 affixed sticker over printed MRP ₹ 275.00\nNet Qty: 5 kg\nWarning: Overwriting or alteration of MRP is an offence."
+    }
+  },
+  {
+    "id": "SAMPLE_PROTEIN_SUPPLEMENT",
+    "name": "ProFit 100% Isolate Whey Protein 1kg",
+    "brand": "ProFit Nutrition",
+    "category": "Health & Supplements",
+    "expected_verdict": "FLAGGED_FOR_LAB",
+    "key_issues": [
+      "Section 15 Lab Verification: Claim '27g Protein per 30g scoop (90% Protein concentration)' flagged for Kjeldahl lab assay",
+      "Full statutory declarations present"
+    ],
+    "sides": {
+      "front": "ProFit\n100% HYDROLYZED WHEY ISOLATE\n27g Protein per scoop • 0g Trans Fat • 5.5g BCAA\nNet Weight: 1 kg",
+      "back": "Generic Name: Dietary Protein Powder\nINGREDIENTS: Whey Protein Isolate (92%), Cocoa Powder, Natural Flavours, Sucralose.\n\nManufactured by: ProFit Health Sciences Pvt. Ltd.\nPlot 88, Electronic City, Phase 1, Bangalore, Karnataka - 560100\nCountry of Origin: India\nFSSAI Lic. No: 10019043000881\n\nFor Grievances / Customer Support:\nConsumer Grievance Officer\nTel: +91 80 4455 6677 | Email: support@profitnutri.in\nAddress: Same as registered factory.",
+      "top": "ProFit Isolate\nBatch: PF-ISO-2026-03\nMfg Date: 02/2026\nExp Date: 01/2028",
+      "side": "MRP ₹ 3,499.00 (inclusive of all taxes)\nUSP: ₹ 3.50 / g\nNet Quantity: 1 kg\nStore tightly sealed in a cool, dry place."
+    }
+  }
+]
